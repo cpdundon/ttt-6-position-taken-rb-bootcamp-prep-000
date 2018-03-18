@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
  
-def position_taken(board, idx)
+def position_taken?(board, idx)
   puts board.length
   if board.length = 0
     return
