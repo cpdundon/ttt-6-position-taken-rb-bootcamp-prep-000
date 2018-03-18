@@ -2,7 +2,7 @@
  
 def position_taken(board, idx)
   if board.length = 0
-    return nil
+    return
   end
   
   space = ("" == board[idx].strip)
