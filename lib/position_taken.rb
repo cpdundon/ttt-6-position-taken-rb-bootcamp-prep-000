@@ -6,9 +6,15 @@ def position_taken?(board, idx)
     return
   end
   
-  space = ("" == board[idx].strip)
+  out = board[idx]
   nil_ = (nil == board[idx].strip)
-  if nil_ || space
+  
+  if nil_
+    return false
+  end
+  
+  space = ("" == out.strip)
+  if space
     return false
   end
 end
