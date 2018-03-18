@@ -2,7 +2,7 @@
  
 def position_taken?(board, idx)
   # puts board.length
-  if board.length = 0
+  if board.size = 0
     return
   end
   
