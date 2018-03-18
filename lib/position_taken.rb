@@ -7,7 +7,7 @@ def position_taken?(board, idx)
   end
   
   out = board[idx]
-  nil_ = (nil == board[idx].strip)
+  nil_ = (nil == board[idx])
   
   if nil_
     return false
