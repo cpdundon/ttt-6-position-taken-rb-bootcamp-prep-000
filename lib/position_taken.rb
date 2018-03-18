@@ -8,7 +8,7 @@ def position_taken?(board, idx)
   
   space = ("" == board[idx].strip)
   nil_ = (nil == board[idx].strip)
-  if occupant == nil_ || space
+  if nil_ || space
     return false
   end
 end
