@@ -16,5 +16,7 @@ def position_taken?(board, idx)
   space = ("" == out.strip)
   if space
     return false
+  elsif space == "X" || space == "O"
+    return true
   end
 end
