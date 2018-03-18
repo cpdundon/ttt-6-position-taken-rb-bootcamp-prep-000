@@ -13,10 +13,11 @@ def position_taken?(board, idx)
     return false
   end
   
-  space = ("" == out.strip)
+  out_strip = out.strip
+  space = ("" == out_strip)
   if space
     return false
-  elsif space == "X" || space == "O"
+  elsif out_strip == "X" || out_strip == "O"
     return true
   end
 end
