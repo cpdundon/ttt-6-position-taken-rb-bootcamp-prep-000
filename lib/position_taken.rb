@@ -1,8 +1,8 @@
 # code your #position_taken? method here!
  
 def position_taken?(board, idx)
-  # puts board.length
-  if board.size = 0
+  
+  if board.size == 0
     return
   end
   
